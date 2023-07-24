@@ -15,7 +15,9 @@
 int main(void)
 {
    
-   _delay_ms(1000);
+   DDRA |= (1<<5);
+   PORTA =0x00;
+   
     while (1) 
     {
     }
