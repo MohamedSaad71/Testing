@@ -167,8 +167,8 @@ Disassembly of section .text:
 
 	__builtin_avr_delay_cycles(__ticks_dc);
   fa:	2f ef       	ldi	r18, 0xFF	; 255
-  fc:	84 e3       	ldi	r24, 0x34	; 52
-  fe:	9c e0       	ldi	r25, 0x0C	; 12
+  fc:	87 e8       	ldi	r24, 0x87	; 135
+  fe:	93 e1       	ldi	r25, 0x13	; 19
  100:	21 50       	subi	r18, 0x01	; 1
  102:	80 40       	sbci	r24, 0x00	; 0
  104:	90 40       	sbci	r25, 0x00	; 0

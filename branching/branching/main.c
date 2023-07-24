@@ -15,7 +15,7 @@
 int main(void)
 {
    
-   _delay_ms(500);
+   _delay_ms(800);
     while (1) 
     {
     }
