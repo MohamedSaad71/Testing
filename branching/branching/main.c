@@ -20,6 +20,11 @@ int main(void)
    
     while (1) 
     {
+		_delay_ms(50);
+		PORTA =0xFF;
+		_delay_ms(50);
+		PORTA =0x00;
+		_delay_ms(50);
     }
 }
 
