@@ -122,7 +122,22 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="common_macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="GPIO.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="GPIO.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MemMap.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="std_types.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
