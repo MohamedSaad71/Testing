@@ -15,10 +15,21 @@
 int main(void)
 {
    
+<<<<<<< HEAD
    _delay_ms(1000);
    PORTB =0x00;
+=======
+   DDRA |= (1<<5);
+   PORTA =0x00;
+   
+>>>>>>> conflict
     while (1) 
     {
+		_delay_ms(50);
+		PORTA =0xFF;
+		_delay_ms(50);
+		PORTA =0x00;
+		_delay_ms(50);
     }
 }
 
