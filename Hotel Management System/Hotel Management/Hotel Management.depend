@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1584209020 source:e:\mohamed\nti\c project\hotel management system\hotel management\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1697562053 source:e:\mohamed\nti\c project\hotel management system\hotel management\roomdata.c
+	"RoomData.h"
+
+1697562141 e:\mohamed\nti\c project\hotel management system\hotel management\roomdata.h
+	<stdio.h>
+	<stdlib.h>
+
