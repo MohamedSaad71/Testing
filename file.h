@@ -3,6 +3,7 @@
 
 enum room_type
 {
+	/**/
     type_single,
     type_double,
     type_trible,

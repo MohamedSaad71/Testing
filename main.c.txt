@@ -1,0 +1,23 @@
+#include "lcd.h"
+#include <util/delay.h>
+#include <avr/io.h>
+
+
+
+int main(void)
+{
+/**/
+	LCD_init(); /* Initialize the LCD */
+	LCD_displayStringRowColumn(1,2,"Saaoda");
+	_delay_ms(500);
+
+//change
+	while(1)
+	{
+		/* Note: we write the code before while(1) because we want to execute it only once */
+	}
+
+
+
+
+}
